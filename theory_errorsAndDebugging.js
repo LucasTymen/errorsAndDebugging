@@ -1,5 +1,4 @@
 /*
-
 Skip to Content
 My Home
 Thinking About Errors in Your Code Differently
@@ -14,6 +13,7 @@ errors is part of the process and you won’t always know the solution right awa
 the bug that’s causing your error, and how to think about the debugging process differently.
 Red is a Beautiful Color
 
+
 Red can be a dangerous color. STOP, DANGER, DO NOT ENTER, all loud red signs telling us to turn around, don’t go in
 there, you’ll get hurt. It’s easy to carry this mindset over to coding that many new programmers get discouraged and
 distraught over the red error messages that appear in the terminal.
@@ -22,6 +22,7 @@ They think, “oh no, I’ve done something wrong again” and “clearly coding
 that’s the wrong way of thinking! All programmers, even the most experienced ones, get errors all the time. Believe it
 or not, experienced programmers likely face far more errors than a new programmer ever will.
 Errors in Your Code Mean You’re Trying To Do Something Cool
+
 
 Consider the totally made up graph below:
 
@@ -44,6 +45,7 @@ understand that encountering bugs is one of the best ways you can improve your c
 are, make you really consider what you want your code to accomplish, and then guide you towards building more reliable
 and secure products.
 Tools to Tackle Code Errors
+
 
 Okay, okay, that makes sense! Error messages shouldn’t be scary, but tackling them and coming up with a solution is
 still a skill that must be developed. Being willing to tackle an error is a great first step, and having some tools at
@@ -92,7 +94,6 @@ let honorRoll1 = students1.filter(student1 => {
 
 console.log(honorRoll1);
 
-
 /*
 After running that code, a stack trace that contains a lot of error information will appear:
 
@@ -124,11 +125,13 @@ Often, you’ll encounter syntax errors that will show exactly where the error o
 get these types of errors, you can go directly back to your code and fix them. Here’s an example of code that will throw
 a syntax error:
 
+
 for (let x = 0; x < 10, x++) {
   console.log(x)
 
 
 Running this code will output:
+
 
 /home/runner/FearlessNewDev/index.js:1
 for (let x = 0; x < 10, x++) {
